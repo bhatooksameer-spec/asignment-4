@@ -40,11 +40,11 @@
         </tr>
         <tr>
             <td>select your gender</td>
-            <td><input type="radio" name="a">
+            <td><input type="radio" name="gender" id="a">
                 <label for="a">male</label>
-            <input type="radio" name="a">
+            <input type="radio" name="gender" id="b">
                 <label for="b">Female</label>
-            <input type="radio" name="a">
+            <input type="radio" name="gender" id="c">
                 <label for="c">other</label></td>
         </tr> 
         <tr>
@@ -58,11 +58,11 @@
         </tr>
         <tr>
             <td>Select your DOB</td>
-            <td><input type="date"></td>
+            <td><input type="date" required></td>
         </tr>
         <tr>
             <td>Select your country</td>
-            <td><select name="" id="">
+            <td><select name="" id=""  required>
                 <option value="" disabled selected>Choose country</option>
                 <option value="">Pakistan</option>
                 <option value="">India</option>
@@ -72,14 +72,20 @@
         </tr>
         <tr>
             <td>upload your pic</td>
-            <td><input type="file"></td>
+            <td><input type="file" required></td>
         </tr> 
-        <tr>
-            <td align="right"><input type="button" value="Save my data"> <input type=" button" value="Reset the  data"></td>
-        </tr>
+      <tr>
+          <td>
+              <input type="submit" value="Save my data">
+              <input type="reset">
+              
+          </td>
+      </tr>
+        
     </table>
 </form>
 
 </body>
 
 </html>
+
